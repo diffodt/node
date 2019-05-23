@@ -9,7 +9,7 @@ It learns deep ensembles of oblivious differentiable decision trees on tabular d
 # What do i need to run it?
 * A machine with some CPU (preferably 2+ free cores) and GPU(s)
   * Running without GPU is possible but takes 8-10x as long even on high-end CPUs
-  * Our implementation is memory inefficient and may require a lot of GPU memory to converge
+  * Our implementation is memory inefficient and may require a lot of GPU memory to train
 * Some popular Linux x64 distribution
   * Tested on Ubuntu16.04, should work fine on any popular linux64 and even MacOS;
   * Windows and x32 systems may require heavy wizardry to run;
