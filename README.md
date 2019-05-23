@@ -21,7 +21,7 @@ It learns deep ensembles of oblivious differentiable decision trees on tabular d
 3. Install packages from `requirements.txt`
  * It is critical that you use __torch >= 1.1__, not 1.0 or earlier 
  * You will also need jupyter or some other way to work with .ipynb files
-4. Run jupyter notebook and open a notebook in `./notebooks/`
+4. Run jupyter notebook and open a notebook in `./examples/`
  * Before you run the first cell, change `%env CUDA_VISIBLE_DEVICES=#` to an index that you plan to use.
  * The notebook downloads data from dropbox. You will need __1-5Gb__ of disk space depending on dataset.
 
